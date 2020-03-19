@@ -4,8 +4,8 @@ appName = "ala-collectory"
 
 grails.appName = appName
 
-default_config = "/data/${appName}/config/${appName}-config.properties"
-//default_config = "D:/reinhardt/firma/Biodiversity/working/data/ala-collectory/config/${appName}-config.properties"
+//default_config = "/data/${appName}/config/${appName}-config.properties"
+default_config = "D:/reinhardt/firma/Biodiversity/working/data/ala-collectory/config/${appName}-config.properties"
 if(!grails.config.locations || !(grails.config.locations instanceof List)) {
     grails.config.locations = []
 }
